@@ -8,25 +8,44 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <StackPanel Margin="10">
-            <TextBox x:Name="TextBoxEmployeeCount" Width="200" Margin="0,0,0,10" 
+            <TextBox x:Name="TextBoxEmployeeCount" 
+                  Width="200" 
+                  Margin="0,0,0,10" 
                  />
-            <Button Content="Сгенерировать зарплаты" Click="GenerateSalaries_Click" Margin="0,0,0,10"/>
-            <DataGrid x:Name="DataGridEmployees" AutoGenerateColumns="False" Margin="0,20,0,0" Height="300">
+
+            <Button x:Name="GenerateSalaries"
+                 Content="Сгенерировать зарплаты" 
+                 Click="GenerateSalaries_Click" 
+                 Width="200" 
+                 Margin="0,0,0,10"/>
+
+            <Button x:Name="ShowTotals" 
+                 Content="Показать итог" 
+                 Click="ShowTotals_Click" 
+                 Width="200" 
+                 Margin="0,0,0,10"/>
+
+            <DataGrid x:Name="DataGridEmployees" 
+                   AutoGenerateColumns="False" 
+                   CanUserAddRows="False"
+                   Height="250">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Сотрудник" Binding="{Binding Name}" Width="*"/>
-                    <DataGridTextColumn Header="Январь" Binding="{Binding Salaries[0]}" Width="*"/>
-                    <DataGridTextColumn Header="Февраль" Binding="{Binding Salaries[1]}" Width="*"/>
-                    <DataGridTextColumn Header="Март" Binding="{Binding Salaries[2]}" Width="*"/>
-                    <DataGridTextColumn Header="Апрель" Binding="{Binding Salaries[3]}" Width="*"/>
-                    <DataGridTextColumn Header="Май" Binding="{Binding Salaries[4]}" Width="*"/>
-                    <DataGridTextColumn Header="Июнь" Binding="{Binding Salaries[5]}" Width="*"/>
-                    <DataGridTextColumn Header="Июль" Binding="{Binding Salaries[6]}" Width="*"/>
-                    <DataGridTextColumn Header="Август" Binding="{Binding Salaries[7]}" Width="*"/>
-                    <DataGridTextColumn Header="Сентябрь" Binding="{Binding Salaries[8]}" Width="*"/>
-                    <DataGridTextColumn Header="Октябрь" Binding="{Binding Salaries[9]}" Width="*"/>
-                    <DataGridTextColumn Header="Ноябрь" Binding="{Binding Salaries[10]}" Width="*"/>
-                    <DataGridTextColumn Header="Декабрь" Binding="{Binding Salaries[11]}" Width="*"/>
-                    <DataGridTextColumn Header="Общая зарплата за год" Binding="{Binding YearlySalary}" Width="*"/>
+                    <DataGridTextColumn Header="Имя" Binding="{Binding Name}" Width="*"/>
+
+                    <DataGridTextColumn Header="Январь" Binding="{Binding Salaries[0]}" Width="75"/>
+                    <DataGridTextColumn Header="Февраль" Binding="{Binding Salaries[1]}" Width="75"/>
+                    <DataGridTextColumn Header="Март" Binding="{Binding Salaries[2]}" Width="75"/>
+                    <DataGridTextColumn Header="Апрель" Binding="{Binding Salaries[3]}" Width="75"/>
+                    <DataGridTextColumn Header="Май" Binding="{Binding Salaries[4]}" Width="75"/>
+                    <DataGridTextColumn Header="Июнь" Binding="{Binding Salaries[5]}" Width="75"/>
+                    <DataGridTextColumn Header="Июль" Binding="{Binding Salaries[6]}" Width="75"/>
+                    <DataGridTextColumn Header="Август" Binding="{Binding Salaries[7]}" Width="75"/>
+                    <DataGridTextColumn Header="Сентябрь" Binding="{Binding Salaries[8]}" Width="75"/>
+                    <DataGridTextColumn Header="Октябрь" Binding="{Binding Salaries[9]}" Width="75"/>
+                    <DataGridTextColumn Header="Ноябрь" Binding="{Binding Salaries[10]}" Width="75"/>
+                    <DataGridTextColumn Header="Декабрь" Binding="{Binding Salaries[11]}" Width="75"/>
+
+                    <DataGridTextColumn Header="Итого" Binding="{Binding Total}" Width="75"/>
                 </DataGrid.Columns>
             </DataGrid>
         </StackPanel>
