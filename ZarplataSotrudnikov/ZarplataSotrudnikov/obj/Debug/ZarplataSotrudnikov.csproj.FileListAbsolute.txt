@@ -1,0 +1,15 @@
+E:\Практические\ZarplataSotrudnikov\ZarplataSotrudnikov\bin\Debug\ZarplataSotrudnikov.exe.config
+E:\Практические\ZarplataSotrudnikov\ZarplataSotrudnikov\bin\Debug\ZarplataSotrudnikov.exe
+E:\Практические\ZarplataSotrudnikov\ZarplataSotrudnikov\bin\Debug\ZarplataSotrudnikov.pdb
+E:\Практические\ZarplataSotrudnikov\ZarplataSotrudnikov\obj\Debug\ZarplataSotrudnikov.csproj.AssemblyReference.cache
+E:\Практические\ZarplataSotrudnikov\ZarplataSotrudnikov\obj\Debug\MainWindow.g.cs
+E:\Практические\ZarplataSotrudnikov\ZarplataSotrudnikov\obj\Debug\App.g.cs
+E:\Практические\ZarplataSotrudnikov\ZarplataSotrudnikov\obj\Debug\ZarplataSotrudnikov_MarkupCompile.cache
+E:\Практические\ZarplataSotrudnikov\ZarplataSotrudnikov\obj\Debug\ZarplataSotrudnikov_MarkupCompile.lref
+E:\Практические\ZarplataSotrudnikov\ZarplataSotrudnikov\obj\Debug\MainWindow.baml
+E:\Практические\ZarplataSotrudnikov\ZarplataSotrudnikov\obj\Debug\ZarplataSotrudnikov.g.resources
+E:\Практические\ZarplataSotrudnikov\ZarplataSotrudnikov\obj\Debug\ZarplataSotrudnikov.Properties.Resources.resources
+E:\Практические\ZarplataSotrudnikov\ZarplataSotrudnikov\obj\Debug\ZarplataSotrudnikov.csproj.GenerateResource.cache
+E:\Практические\ZarplataSotrudnikov\ZarplataSotrudnikov\obj\Debug\ZarplataSotrudnikov.csproj.CoreCompileInputs.cache
+E:\Практические\ZarplataSotrudnikov\ZarplataSotrudnikov\obj\Debug\ZarplataSotrudnikov.exe
+E:\Практические\ZarplataSotrudnikov\ZarplataSotrudnikov\obj\Debug\ZarplataSotrudnikov.pdb
